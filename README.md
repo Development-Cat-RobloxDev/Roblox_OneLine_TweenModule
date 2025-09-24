@@ -13,7 +13,8 @@ local CustomEasingModule = require(ServerScriptService:WaitForChild("CustomEasin
 CustomEasingModule.NewTween(Part,"Size",Vector3.new(10,10,10),Enum.EasingStyle.Sine,Enum.EasingDirection.InOut,0,3)
 ```
 
-どこに置いても、よろしいですよ〜、Server・Clientの両方で使えます。
+どこに置いてもよろしいです〜
+Server・Clientの両方で使えます。
 CustomEasingModule.NewTween()でTweenを作成、
 CustomEasingModule.NewTweenPlay()で作成したTweenを再生、
 CustomEasingModule.NewTweenAndPlay()で、作成から再生まで一括でします。
